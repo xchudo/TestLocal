@@ -1,0 +1,123 @@
+/*GLOBAL_STYLE*/
+
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#page-wrap {
+    margin: 30px;
+}
+
+/*END GLOBAL_STYLE*/
+
+/*RESPONSIVE_TABLE_STYLE*/
+.tb-resp {
+    border: 1px solid #000;
+}
+
+.tb-resp p {
+    margin: 0 0 6px 0;
+}
+
+.tb-resp p:last-child {
+    margin: 0;
+}
+
+.tb-resp .percent-line,
+.tb-resp .tb-row {
+    border-bottom: 1px solid #5b9bd5;
+}
+
+.tb-resp .percent-line:last-child,
+.tb-resp .tb-row:last-child {
+    border-bottom: none;
+}
+
+.tb-resp .tb-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.tb-resp .percent-line.different-perc > div,
+.tb-resp .tb-row > div{
+    border-left: 1px solid #5b9bd5;
+}
+
+.tb-resp .percent-line.different-perc > div:first-child,
+.tb-resp .tb-row > div:first-child {
+    border-left: none;
+}
+
+.tb-resp .tb-row > div {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.tb-resp .tb-row:first-child > div:last-child,
+.tb-resp .tb-row:first-child > div:first-child{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 150px;
+    -ms-flex: 0 0 150px;
+    flex: 0 0 150px;
+}
+
+/*percent_line*/
+
+.tb-resp .tb-row > div.percent-cont {
+    padding: 0;
+}
+
+.tb-resp .percent-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-pack: center;
+    padding: 20px;
+}
+
+.tb-resp .percent-line > div {
+    width: 50%;
+}
+
+.tb-resp .percent-line > .percent-60{
+   width: 60%;
+}
+
+.tb-resp .percent-line > .percent-40{
+    width: 40%;
+}
+
+.tb-resp .percent-line.different-perc {
+    padding: 0;
+}
+
+.tb-resp .percent-line.different-perc > div {
+    padding: 20px;
+}
+
+/*END percent_line*/
+
+/*END RESPONSIVE_TABLE_STYLE*/

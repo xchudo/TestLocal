@@ -1,0 +1,35 @@
+
+@media (max-width: 1024px) {
+    .tablet-hide{
+        display: none!important;
+    }
+}/*END 1024px*/
+
+@media (max-width: 768px) {
+    .tablet-hide{
+        display: inherit!important;
+    }
+
+    .tb-resp .percent-line.different-perc > div, .tb-resp .tb-row > div{
+        border-left: none;
+        border-bottom: 1px solid #5b9bd5;
+    }
+
+    .tb-resp .tb-row > div:last-child{
+        border-bottom: none;
+    }
+
+    .tb-resp .percent-line{
+        border-bottom: none;
+    }
+
+    .tb-resp .tb-row:first-child > div:last-child,
+    .tb-resp .tb-row:first-child > div:first-child,
+    .tb-resp .tb-row > div{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .tb-resp .percent-line > div{
+        width: 100%!important;
+    }
+}/*END 768px*/
