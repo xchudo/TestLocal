@@ -1,4 +1,9 @@
 /*js file*/
 
-
-/*Код в master*/
+jQuery(document).ready(function($) {
+	/*
+	Тут будет качественный большой код
+	*/
+    /*Код в master*/
+    console.log('test');
+});
