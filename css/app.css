@@ -18,7 +18,7 @@
 }
 
 .tb-resp p {
-    margin: 0 0 6px 0;
+    margin: 0 0 6px;
 }
 
 .tb-resp p:last-child {
@@ -111,7 +111,7 @@
 }
 
 .tb-resp .percent-line.different-perc {
-    padding: 0;
+    padding: 0px;
 }
 
 .tb-resp .percent-line.different-perc > div {
