@@ -6,5 +6,5 @@ jQuery(document).ready(function($) {
 	*/
     /*Код в master*/
     console.log('test');
-    console.log('idea!!!!!!!!');
+    console.log('idea!!!');
 });
